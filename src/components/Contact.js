@@ -38,7 +38,7 @@ const Contact = () => {
           marginHeight={0}
           marginWidth={0}
           style={{ filter: "opacity(0.7)" }}
-          src="https://www.google.com/maps/embed/v1/place?q=293+Wragby+Road,+Lincoln,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+          src="https://www.google.com/maps/embed/v1/place?q=Lincoln,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
         <div className="bg-gray-900 relative flex flex-wrap py-6 rounder shadow-md">
           <div className="lg:2-1/2 px-6">
@@ -48,10 +48,6 @@ const Contact = () => {
             <a className="text-indigo-400 leading-relaxed">
               cmuris4@gmail.com
              </a>
-             <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-              PHONE
-             </h2>
-             <p className="leading-relaxed">07975635254</p>
           </div>
         </div>
       </div>
