@@ -20,11 +20,8 @@ const Projects = () => {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
+            <a href={project.link} key={project.image} className="flex w-full md:w-1/2 p-4">
+              <div className="flex relative h-full">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
@@ -48,4 +45,4 @@ const Projects = () => {
   );
 };
 
-export default Projects
+export default Projects;

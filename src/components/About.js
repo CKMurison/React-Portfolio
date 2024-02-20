@@ -13,7 +13,7 @@ const About = () => {
             I'm a graduate of Makers Academy, a leading software development bootcamp based in London.
           </p>
           <div className="flex justify-center">
-            <a href="#contact" className="inline-flex text-white bg-green-500 border-0 oy-2 px-6 focus:outline-none hover:bg-green-600 rounder text-lg">
+            <a href="#contact" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounder text-lg">
               Work with me
             </a>
             <a href="#projects" className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
