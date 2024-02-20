@@ -21,9 +21,24 @@ const Contact = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", name, email, message }),
     })
-      .then(() => alert("Message sent!"))
-      .catch((error) => alert(error));
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then(() => {
+        alert("Message sent!");
+        setName("");
+        setEmail("");
+        setMessage("");
+      })
+      .catch((error) => {
+        alert("Message failed to send. Please try again later.");
+        console.error("Error submitting form:", error);
+      });
   }
+  
 
   return (
     <section id="contact" className="relative">
