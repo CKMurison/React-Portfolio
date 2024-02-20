@@ -14,9 +14,11 @@ const Skills = () => {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w2/4 lg:w-3/4 mx-auto">
-            Over the course of Makers Academy I learnt key programming skills that allow me to perform my best.
-            We weren't however just taught coding. We were taught all about teamwork and what it means to be a great
-            programmer.
+          During my time studying and at Makers Academy, I not only acquired essential programming skills 
+          but also gained a comprehensive understanding of the broader aspects of being a successful developer. 
+          The program extended beyond mere coding exercises, encompassing valuable lessons on teamwork and the 
+          essential qualities that define an exceptional programmer, as well as a range of full-stack projects
+          using best practices.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

@@ -37,7 +37,7 @@ export const skills = [
   "JavaScript",
   "React",
   "Ruby",
-  "OOP",
+  "GitHub",
   "PSQL",
-  "Html & CSS",
+  "Agile",
 ];
