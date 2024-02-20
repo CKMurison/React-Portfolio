@@ -13,9 +13,10 @@ const Projects = () => {
             Things I've made
           </h1>
           <p className="lg:2 2/3 mx-auto leading-relaxed text-base">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+           Here are some of the projects I've enjoyed making. If you'd like to see more,{" "} 
+          <a href="https://github.com/CKMurison" className="text-green-400 hover:underline">
+           click here
+          </a>.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
