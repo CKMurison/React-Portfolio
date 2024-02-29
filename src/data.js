@@ -31,6 +31,14 @@ export const projects = [
     image: "./Godot.png",
     link: "",
   },
+  {
+    title: "Python Time Tracker",
+    subtitle: "Python",
+    description:
+      "This program records data on what window is open and then saves the data to look at later in a json file",
+    image: "./Python-Tracker",
+    link: "https://github.com/CKMurison/Python-time-tracker",
+  },
 ];
 
 export const skills = [
