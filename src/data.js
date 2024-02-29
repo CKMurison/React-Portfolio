@@ -36,7 +36,7 @@ export const projects = [
     subtitle: "Python",
     description:
       "This program records data on what window is open and then saves the data to look at later in a json file",
-    image: "./Python-Tracker",
+    image: "/Users/cameron/Downloads/my-portfolio/public/Python-Tracker.png",
     link: "https://github.com/CKMurison/Python-time-tracker",
   },
 ];
